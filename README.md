@@ -4,6 +4,7 @@ Teensy LC, and various electronic devices. More information on the
 components, goals, and features will be added in the coming weeks.
 
 ELECTRONIC COMPONENTS:
+
 (Main Body)
 - Raspberry Pi 2 Model B
 - Adafruit Motor HAT
