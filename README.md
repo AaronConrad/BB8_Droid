@@ -3,7 +3,7 @@ Life-size, functional replica of Star Wars' BB-8 with a Raspberry Pi,
 Teensy LC, and various electronic devices. More information on the
 components, goals, and features will be added in the coming weeks.
 
-ELECTRONIC COMPONENTS:
+ELECTRONIC COMPONENTS:\n
 (Main Body)
 - Raspberry Pi 2 Model B
 - Adafruit Motor HAT
@@ -15,7 +15,7 @@ ELECTRONIC COMPONENTS:
 - MPU-6050 acceleromter
 - RGB LEDs
 - Basic speaker with headphone jack
-- Bluetooth Dongle
+- Bluetooth Dongle\n
 (Head)
 - Teensy LC
 - HC-05 Bluetooth module
