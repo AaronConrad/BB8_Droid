@@ -17,6 +17,7 @@ ELECTRONIC COMPONENTS:
 - RGB LEDs
 - Basic speaker with headphone jack
 - Bluetooth Dongle
+
 (Head)
 - Teensy LC
 - HC-05 Bluetooth module
@@ -24,12 +25,14 @@ ELECTRONIC COMPONENTS:
 - Maxbotix EV0 ultrasonic sensor
 
 GOALS:
+
 (Mechanically)
 - Move forwards and backwards
 - Lean side to side
 - Rotate head 360 degrees
 - Move head across the top of the ball
 - Auto-stabilize
+
 (Software)
 - Auto-stabilzation
 - Fully controllable from phone/laptop via Bluetooth
@@ -43,6 +46,7 @@ GOALS:
   - User control
 
 CHALLENGES:
+
 - Interpret heading, roll, and pitch into something usable
 - Auto-stabilizing with a robot with 4 degrees of freedom
 - Splitting the tasks to be able to multithread safely
