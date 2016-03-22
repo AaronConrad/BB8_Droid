@@ -33,6 +33,7 @@ GOALS:
 - Auto-stabilzation
 - Fully controllable from phone/laptop via Bluetooth
 - Main program (on Pi) built in C due to speed and easy integration of Python libraries
+- Take advantage of the Pi 2's quad-core processor with multithreading
 - Make BB-8 as much a character as possible. This includes different states, such as:
   - Idle, doing nothing
   - Still, only head moving
@@ -43,6 +44,7 @@ GOALS:
 CHALLENGES:
 - Interpret heading, roll, and pitch into something usable
 - Auto-stabilizing with a robot with 4 degrees of freedom
+- Splitting the tasks to be able to multithread safely
 - Getting a smart device (phone), Pi, and Arduino all communicating
 
 *** THE LIBRARIES CURRENTLY INCLUDED IN MY PROJECT ARE PROPERTIES OF THEIR RESPECTIVE OWNERS,
