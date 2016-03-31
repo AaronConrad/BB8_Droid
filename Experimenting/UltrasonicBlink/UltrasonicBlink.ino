@@ -1,5 +1,6 @@
-/*  UltrasonicBlinking
-    Aaron Conrad - 3/16/16
+/* File:      UltrasonicBlinking
+   Author:    Aaron Conrad
+   Modified:  3/30/16
 
     This sketch reads the digital output of an ultrasonic sensor, and
     blinks the LED on the Teensy faster as an object gets closer to it.

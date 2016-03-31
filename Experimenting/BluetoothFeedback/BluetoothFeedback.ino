@@ -1,3 +1,11 @@
+/* File:      BluetoothFeedback
+ * Author:    Aaron Conrad
+ * Modified:  3/30/16
+ * 
+ * Simple Bluetooth feedback loop to test reading and
+ * writing to the Bluetooth serial connection.
+ */
+
 #include <SoftwareSerial.h>
 
 #define TEENSY_RX 0

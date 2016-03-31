@@ -1,3 +1,16 @@
+/* File:      UltrasonicNoiseControl
+   Author:    Aaron Conrad
+   Modified:  3/30/16
+
+   Runs ultrasonic sensor at maximum rate (20Hz), stores
+   previous readings, and computes a running average that
+   is then sent out to Serial and/or Bluetooth at 20Hz.
+
+   The number of previous readings stored and number of outliers
+   that can be thrown out is easily changeable, though more than
+   ~3 outliers and 8 readings can lower max rate.
+*/
+
 #include <SoftwareSerial.h>
 
 //Pinouts
@@ -50,7 +63,7 @@ void loop() {
 
   printData();
   //printDebug();
- // delay(1000);
+  // delay(1000);
 }
 
 /*

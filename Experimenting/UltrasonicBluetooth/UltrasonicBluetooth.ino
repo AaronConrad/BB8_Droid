@@ -1,3 +1,11 @@
+/* File:      UltrasonicBluetooth
+ * Author:    Aaron Conrad
+ * Modified:  3/30/16
+ * 
+ * Takes readings from the ultrasonic sensor and sends
+ * the value over Bluetooth.
+ */
+
 #include <SoftwareSerial.h>
 
 #define TEENSY_RX 0
