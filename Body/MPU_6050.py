@@ -151,3 +151,7 @@ class MPU_6050:
 		print "accelRotation: %.2f, %.2f, %.2f" % (self.accelRotation[X], self.accelRotation[Y], self.accelRotation[Z])
 		print "combinedRotation: %.2f, %.2f, %.2f" % (self.combinedRotation[X], self.combinedRotation[Y], self.combinedRotation[Z])
 	# ------------------------------------------------------------------
+	
+	# Wake up the sensor
+	def wakeMPU():
+		bus.write_byte_data(MPU_ADR, MPU_POWER_MGMT_1, 0)
