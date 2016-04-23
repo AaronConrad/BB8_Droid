@@ -19,8 +19,9 @@ ELECTRONIC COMPONENTS:
 - Bluetooth Dongle
 
 (Head)
-- Teensy LC
+- Teensy 3.2
 - HC-05 Bluetooth module
+- OLED Display
 - RGB LEDs
 - Maxbotix EV0 ultrasonic sensor
 
@@ -32,11 +33,12 @@ GOALS:
 - Rotate head 360 degrees
 - Move head across the top of the ball
 - Auto-stabilize
+- Potentially add in-place rotation
 
 (Software)
 - Auto-stabilzation
 - Fully controllable from phone/laptop via Bluetooth
-- Main program (on Pi) built in C due to speed and easy integration of Python libraries
+- Main program (on Pi) built in Python since most of my libraries are in Python
 - Take advantage of the Pi 2's quad-core processor with multithreading
 - Make BB-8 as much a character as possible. This includes different states, such as:
   - Idle, doing nothing
@@ -51,7 +53,3 @@ CHALLENGES:
 - Auto-stabilizing with a robot with 4 degrees of freedom
 - Splitting the tasks to be able to multithread safely
 - Getting a smart device (phone), Pi, and Arduino all communicating
-
-*** THE LIBRARIES CURRENTLY INCLUDED IN MY PROJECT ARE PROPERTIES OF THEIR RESPECTIVE OWNERS,
-AND I TAKE NO CREDIT FOR THEM.  They are included for completion's sake and to fill out the
-folders with some files. As I start adding my own code, they will likely be removed. ***
