@@ -1,0 +1,47 @@
+File:		HoloDocumentation.txt
+Author:		Aaron Conrad
+Purpose:	Provide descriptions on my 3D print designs
+
+The holoprojector on BB-8's head has two purposes in my project. The first
+is to hold a Maxbotix EV0 Ultrasonic Sensor. The second is to have a
+removable, clear(ish) dome that LEDs can shine through giving the appearance
+of a working projector (and also disengages the sensor).
+
+I decided on using three 5050 RGB LEDs to allow for a range of colors. Their
+wires are 30-gauge and must be threaded through one of the sensor's two M3
+size mounting holes. The other hole will hold a screw, creating a mechanical
+connection between the projector and sensor.
+
+As the version number increases, I get closer to the final design, i.e. the
+versions are not interchangeable. The final creation in each version (a dome
+and main body for each) is isolated from the work material. The notes below
+on each version only list the changes from the version preceeding it.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+*** The main holoprojector is not my design. It was created by the BB-8
+Builder's Club, and I take no credit for it. Everything else is my creation.
+
+Version 1:
+Dome -	18mm diameter
+	3 6mm x 6mm x 2mm LED spots
+	inside ring for wire - 16mm dia outside, 7.2mm dia inside, 1.5mm height
+Sensor-	Block: 22.5mm x 20.3mm x 8mm
+	Screw holes: 3mm dia, protrude 2mm
+	Cylinder: 16.8 dia
+Main Body otherwise unaffected
+
+Version 2:
+Dome -	20mm diameter
+Sensor-	Extended bottom to accomodate scaled main body
+	Extended screw holes by 5mm up
+Main Body scaled by 1.11
+
+Version 3:
+Dome -	No change
+Sensor-	Replaced 3mm screw hole on short side with 2.8mm hole
+	Extended block on long side by 1.5mm to better accomodate pins and wires
+
+Version 4:
+Dome -	Increased depth of LED spots by 0.5mm to allow space for wires
+Sensor-	Added wire pass-through for LEDs
