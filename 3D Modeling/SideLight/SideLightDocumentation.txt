@@ -1,0 +1,13 @@
+File:		SideLightDocumentation.txt
+Author:		Aaron Conrad
+Modified:	5/6/16
+Purpose:	Provide descriptions on my 3D print designs
+
+I was not satisfied with the BB-8 Builder Club's panel light on the side of
+his head, so I decided to make my own.  Based off reference images, I think
+the panel looks similar to an HDMI port, but with rounded edges.  It was a
+quick build, so only 1 version was made.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+Everything here is my own creation.

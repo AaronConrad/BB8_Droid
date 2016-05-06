@@ -17,7 +17,7 @@ uint8_t green = 0x00;
 bool isGreenIncreasing = true;
 uint8_t blue = 0x00;
 bool isBlueIncreasing = true;
-uint8_t brightness = 255;
+uint8_t brightness = 64;
 uint32_t color;
 long iteration = 0;
 
@@ -61,8 +61,9 @@ void loop() {
   color = (red * 0x10000) + (green * 0x100) + blue;
   //Serial.println(color, HEX);
   strip.setPixelColor(0, color);
+  strip.setPixelColor(1, color);
   strip.show();
   //Serial.println(iteration);
   iteration++;
-  delay(5);
+  delay(100);
 }

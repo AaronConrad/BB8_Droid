@@ -37,7 +37,7 @@ byte dataFromPiIndex = 0;
 
 void setup() {
   Serial.begin(115200);
-  bluet.begin(9600);
+  bluet.begin(115200);
 }
 
 void loop() {
