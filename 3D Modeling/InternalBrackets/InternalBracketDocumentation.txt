@@ -1,6 +1,6 @@
 File:		InternalBracketsDocumentation.txt
 Author:		Aaron Conrad
-Modified:	5/6/16
+Modified:	5/15/16
 Purpose:	Provide descriptions on my 3D print designs
 
 Some of the parts, especially involving the main axle, need a high degree of
@@ -20,7 +20,8 @@ Everything here is my creation.
 -----------------------------------------------------------------------------
 
 *** BracketsPart1.STL ***
-Includes AxleBracket and TopPlatformBracket.
+Includes AxleBracket and TopPlatformBracket, which are both included in
+BracketsCombinedPart1.
 
 The AxleBracket is attached to opposite sides of the main body sphere and
 holds a 1/2 inch PVC pipe between them. Since all the internal weight rests
@@ -33,3 +34,17 @@ The TopPlatformBracket holds the wood platform on which rests most of the
 electronics. Two of these are neccessary, though they will only hold a
 portion of the total weight. These brackets have a #8 screw hole attaching
 it to two metal corner braces that are screwed to the platform.
+
+BracketsCombinedPart1 put all four pieces onto the same platform, and I cut
+off the tips of the AxleBrackets.  The pointed tips didn't really add much
+surface area, and allowed all the pieces to better fit in a 225 x 145 mm
+space.
+
+*** BracketsPart2.STL ***
+Includes just BottomPlatformBracket.
+
+The BottomPlatformBracket holds the flywheel and most of the internal
+weight lower and perpendicular to the TopPlatformBracket. The platform must
+be able to clear the drive wheel(s). I had trouble determine the precise
+height where clearance is okay, so I decided to print the piece with multiple
+holes to be able to experiment.

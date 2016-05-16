@@ -1,6 +1,6 @@
 File:		HoloDocumentation.txt
 Author:		Aaron Conrad
-Modified:	5/6/16
+Modified:	5/15/16
 Purpose:	Provide descriptions on my 3D print designs
 
 The holoprojector on BB-8's head has two purposes in my project. The first
@@ -22,6 +22,7 @@ These files were built with Autodesk 123Design, which is a free application.
 
 *** The main holoprojector is not my design. It was created by the BB-8
 Builder's Club, and I take no credit for it. Everything else is my creation.
+----------------------------------------------------------------------------
 
 Version 1:
 Dome -	18mm diameter
@@ -46,3 +47,16 @@ Sensor-	Replaced 3mm screw hole on short side with 2.8mm hole
 Version 4:
 Dome -	Increased depth of LED spots by 0.5mm to allow space for wires
 Sensor-	Added wire pass-through for LEDs
+
+----------------------------------------------------------------------------
+
+***HoloMount***
+I wanted the holoprojector to become removeable in the case that I couldn't
+thread the LED wires past the ultrasonic sensor which would mean I'd need to
+have swappable holoprojectors. Making it removeable means I can add different
+functionality later on if desired.
+
+The mount is simply a ring just slightly smaller on the inside than my
+modified holoprojector to allow it to fit snuggly. Then there is a backing
+ring for the projector to sit on and allow any necessary wires to thread
+through.

@@ -1,0 +1,13 @@
+File:		OLEDDisplayMountDocumentation.txt
+Author:		Aaron Conrad
+Modified:	5/15/16
+Purpose:	Provide descriptions on my 3D print designs
+
+This piece is designed to go next to the BB-8's "mouthpiece" where the two
+cutouts that have lights are. It is compatible with Adafruit's 1.27" OLED
+full color display. I've made the two cutouts larger than the actual BB-8
+in order to use more of the screen space.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+Everything here is my own creation.

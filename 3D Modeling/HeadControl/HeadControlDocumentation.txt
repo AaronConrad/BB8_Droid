@@ -1,0 +1,33 @@
+File:		HeadControlDocumentation.txt
+Author:		Aaron Conrad
+Modified:	5/15/16
+Purpose:	Provide descriptions on my 3D print designs
+
+BB-8's head can move in all directions against the top of the ball, which
+requires a way to move in two axes. This motion can be accomplished with
+multiple servos. But by using a ball-and-socket joint, I can accomplish it
+with two servos mounted close to the center axis.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+The original ball-and-socket joint is available from Thingiverse at this
+URL: http://www.thingiverse.com/thing:70366
+
+Everything else is my creation.
+Note that the .123dx file includes the designs of the parts in both
+STL files.
+----------------------------------------------------------------------------
+
+***HeadControlBallandSocket.stl***
+I found a ball-and-socket joint that someone else made and scaled it to a
+better size. The socket had its platform trimmed to be able to attach it
+easier to the bracket. The ball had its entire platform removed, and
+partially hollowed out to fit a 5/8 inch dowel rod that will extend to the
+magnets.
+
+***HeadControlBrackets.stl***
+The ball-and-socket joint needs to be mounted onto the axle in the center on
+top of a PVC T-connector. Each half of the bracket has a small diameter hole
+on one end for the pipe, and a larger hole for the T-connector. Then there
+is a flat piece that bridges the two and provides a platfrom for the socket
+piece to attach to.
