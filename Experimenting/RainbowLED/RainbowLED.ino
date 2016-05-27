@@ -9,8 +9,8 @@
 #include <Adafruit_DotStar.h>
 #include <SPI.h>
 
-#define STRAND_LENGTH 1
-Adafruit_DotStar strip = Adafruit_DotStar(STRAND_LENGTH, DOTSTAR_BGR);
+#define STRAND_LENGTH 30
+Adafruit_DotStar strip = Adafruit_DotStar(STRAND_LENGTH, 11, 14, DOTSTAR_BGR);
 uint8_t red = 0xFF;
 bool isRedIncreasing = false;
 uint8_t green = 0x00;
@@ -21,11 +21,17 @@ uint8_t brightness = 64;
 uint32_t color;
 long iteration = 0;
 
+byte pixelIndex = 0;
+bool ledState = false;
+
 void setup() {
   Serial.begin(115200);
   strip.begin();
   strip.show();
   strip.setBrightness(brightness);
+  //SPI.setSCK(14);
+
+  pinMode(13, OUTPUT);
 }
 
 // Cycle through rainbow
@@ -60,10 +66,15 @@ void loop() {
   }
   color = (red * 0x10000) + (green * 0x100) + blue;
   //Serial.println(color, HEX);
-  strip.setPixelColor(0, color);
-  strip.setPixelColor(1, color);
+  strip.setPixelColor(pixelIndex, color);
+  pixelIndex = (pixelIndex + 1) % 30;
   strip.show();
-  //Serial.println(iteration);
+
+  //Flash board LED
+  digitalWrite(13, ledState);
+  ledState = !ledState;
+  
+  Serial.println(iteration);
   iteration++;
-  delay(100);
+  delay(10);
 }

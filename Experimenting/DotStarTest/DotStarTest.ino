@@ -10,11 +10,12 @@
 
 #define STRAND_LENGTH 1
 Adafruit_DotStar strip = Adafruit_DotStar(STRAND_LENGTH, DOTSTAR_BGR);
-uint32_t color = 0xFFFFFF;
+uint32_t color = 0xFF0000;
 uint8_t brightness = 1;
 boolean isGettingBrighter = true;
 
 void setup() {
+  SPI.setSCK(14);
   strip.begin();
   strip.show();
   strip.setPixelColor(0, color);
