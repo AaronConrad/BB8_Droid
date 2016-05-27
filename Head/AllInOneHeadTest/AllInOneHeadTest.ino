@@ -99,7 +99,7 @@ void setup() {
   
   //SETUP THE OLED
   SPI.setSCK(14);
-  //Serial.begin(9600);
+  Serial.begin(9600);
   pinMode(ocs, OUTPUT);
   digitalWrite(ocs, HIGH);
   // initialize the OLED
@@ -240,7 +240,7 @@ void loop() {
     tft.print(String(distance));
     tft.setCursor(0, 60);
     tft.setTextColor(GREEN);
-    tft.print(bluetData);
+    tft.print(String(bluetData));
     delay(500);
 }
 
@@ -288,19 +288,18 @@ void readUltrasonic() {
 }
 
 void readBluetooth() {
-  bluetData = 0;
-  while (bluet.available()) {
-    bluetData = bluet.read();
+  bluetData = 255;
+  bluetData = bluet.read();
+  Serial.println(bluetData);
+  if (bluetData == 255) {
+    return;
   }
-  if (bluetData != 0) {
-    bluetData = bluetData - 48;
-  }
+  bluetData -= 48;
   bluetData %= 6;
   switch (bluetData) {
     case 0:
       strip1.setPixelColor(0, 0xFF0000);
       strip2.setPixelColor(0, 0xF0F000);
-      //Serial.print("Reached here");
       break;
     case 1:
       strip1.setPixelColor(0, 0xF0F000);

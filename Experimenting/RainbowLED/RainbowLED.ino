@@ -9,7 +9,7 @@
 #include <Adafruit_DotStar.h>
 #include <SPI.h>
 
-#define STRAND_LENGTH 30
+#define STRAND_LENGTH 1
 Adafruit_DotStar strip = Adafruit_DotStar(STRAND_LENGTH, 11, 14, DOTSTAR_BGR);
 uint8_t red = 0xFF;
 bool isRedIncreasing = false;
@@ -67,7 +67,7 @@ void loop() {
   color = (red * 0x10000) + (green * 0x100) + blue;
   //Serial.println(color, HEX);
   strip.setPixelColor(pixelIndex, color);
-  pixelIndex = (pixelIndex + 1) % 30;
+  pixelIndex = (pixelIndex + 1) % STRAND_LENGTH;
   strip.show();
 
   //Flash board LED
