@@ -1,0 +1,32 @@
+File:		FlywheelDocumentation.txt
+Author:		Aaron Conrad
+Modified:	6/9/16
+Purpose:	Provide descriptions on my 3D print designs
+
+The purpose of a flywheel is to be able to rotate BB-8 in-place, but in order
+to do so efficiently, it must have lots of mass.  This requires a container to
+hold lead weight that attaches to a rotating device called a lazy susan, or
+turntable.
+
+For my 300mm diameter turntable, there are 6 holes on the inner ring, which
+are used to attach the container. This is convienent since it allowed me to
+design one-sixth of the entire container and then print copies. Unfortunately,
+one of these holes is not centered like the rest which is why there is an
+additional file for that specific portion.
+
+My flywheel is designed to hold 4 pounds of lead, which is about 300 cubic
+centimeters.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+The design is inspired by James Bruton's (XRobots) work on his BB-8 Version
+3, but is my own creation.
+------------------------------------------------------------------------------
+
+Flywheel.123dx:  One-sixth of the entire flywheel.
+FlywheelError.123dx:  The matching container for the one faulty portion
+FlywheelTemplates.123dx:  2D templates for designing the container shape
+
+FlywheelPart1.stl:  Three identical containers
+FlywheelPart2.stl:  Two containers identical to Part1, plus the faulty
+	container, which is the one on the right.

@@ -1,0 +1,14 @@
+File:		DiffusersDocumentation.txt
+Author:		Aaron Conrad
+Modified:	6/9/16
+Purpose:	Provide descriptions of my 3D print designs
+
+The LEDs I'm using are smaller than some of the lights on the body of BB-8.
+To help spread out the light to fill the whole space, I made diffusers that
+are printed in a clear filament. To keep the look consistent, I had to make
+a diffuser for every light.  I also made the diffusers large enough to be
+able to hold the soldered connections in-place to prevent breakage.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+Everything here is my creation.

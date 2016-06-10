@@ -1,0 +1,17 @@
+File:		MainDriveV1Documentation.txt
+Author:		Aaron Conrad
+Modified:	6/9/16
+Purpose:	Provide descriptions on my 3D print designs
+
+I needed a way to connect the main drive motor at the bottome of the ball
+to the axle in the middle. To efficiently use the space bewteen these two
+sections, I decided to place one of my batteries there in a casing which can
+attach to the motor by a secondary bracket.
+
+Version 1 used my squarish, USB power bank (5V), but I discovered it was too
+wide to be able to place other mechanics nearby.  I used the same idea but
+used my 12V battery instead in Version 2.  Version 1 was never printed.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+Everything here is my own creation.

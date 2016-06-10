@@ -1,6 +1,6 @@
 File:		HoloDocumentation.txt
 Author:		Aaron Conrad
-Modified:	5/15/16
+Modified:	6/9/16
 Purpose:	Provide descriptions on my 3D print designs
 
 The holoprojector on BB-8's head has two purposes in my project. The first
@@ -44,9 +44,16 @@ Dome -	No change
 Sensor-	Replaced 3mm screw hole on short side with 2.8mm hole
 	Extended block on long side by 1.5mm to better accomodate pins and wires
 
-Version 4:
+Version 4 - HoloFinal1.0.stl:
 Dome -	Increased depth of LED spots by 0.5mm to allow space for wires
 Sensor-	Added wire pass-through for LEDs
+
+Version 5 - HoloFinal2.0.stl:
+Dome -	Completely removed spots for LEDs and instead hollowed out an entire
+	section to better fit a PCB and its LEDs
+Sensor-	Removed pass-through for LEDs and increased tolerances to allow easier
+	fitting of the sensor. The result is a better looking, easier to use
+	holoprojector
 
 ----------------------------------------------------------------------------
 

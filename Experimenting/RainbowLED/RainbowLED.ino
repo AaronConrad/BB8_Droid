@@ -9,7 +9,7 @@
 #include <Adafruit_DotStar.h>
 #include <SPI.h>
 
-#define STRAND_LENGTH 1
+#define STRAND_LENGTH 8
 Adafruit_DotStar strip = Adafruit_DotStar(STRAND_LENGTH, 11, 14, DOTSTAR_BGR);
 uint8_t red = 0xFF;
 bool isRedIncreasing = false;

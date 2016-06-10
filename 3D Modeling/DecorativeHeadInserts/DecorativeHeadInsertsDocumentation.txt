@@ -1,0 +1,14 @@
+File:		DecorativeHeadInsertsDocumentation.txt
+Author:		Aaron Conrad
+Modified:	6/9/16
+Purpose:	Provide descriptions on my 3D print designs
+
+The decorative parts for the head were designed (either by me or the BB-8
+Builder's Club) to be the actual visible size on the real BB-8.  With my
+head, though, I have no good way of attaching those parts to the head.
+These inserts are superglued onto those parts and provide a much larger
+contact area to attach them to the inside of the head.
+
+These files were built with Autodesk 123Design, which is a free application.
+
+Everything here is my own creation.
