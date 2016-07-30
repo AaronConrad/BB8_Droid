@@ -86,7 +86,7 @@ Adafruit_DotStar strip1 = Adafruit_DotStar(LED1LENGTH, LED1DATA, LED1CLOCK, DOTS
 
 #define LED2DATA 15
 #define LED2CLOCK 16
-#define LED2LENGTH 1
+#define LED2LENGTH 4
 Adafruit_DotStar strip2 = Adafruit_DotStar(LED2LENGTH, LED2DATA, LED2CLOCK, DOTSTAR_BGR);
 
 //BLUETOOTH
@@ -127,7 +127,11 @@ void setup() {
   strip2.begin();
   strip2.show();
   strip2.setBrightness(8);
-  strip2.setPixelColor(0, 0xFFFFFF);
+  strip2.setPixelColor(0, 0xFFFF00);
+  strip2.setPixelColor(1, 0xFF0000);
+  strip2.setPixelColor(2, 0x00FF00);
+  strip2.setPixelColor(3, 0x0000FF);
+  strip2.show();
 
   //SETUP ACCELEROMETER
   // join I2C bus (I2Cdev library doesn't do this automatically)

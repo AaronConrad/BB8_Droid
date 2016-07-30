@@ -1,0 +1,10 @@
+File:		FlywheelBracketDocumentation.txt
+Author:		Aaron Conrad
+Modified:	7/1/16
+Purpose:	Provide descriptions on my 3D print designs
+
+I originally had the flywheel attached to the main axle using a long,
+straight bracket, located in the InternalBrackets folder.  I designed a new
+bracket to be able to attach to the flywheel with two screws, and to easily
+attach other pieces, such as motor brackets.  Also, if I want to adjust the
+flywheel height, I don't have to reprint every piece.
